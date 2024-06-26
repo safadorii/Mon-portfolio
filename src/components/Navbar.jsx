@@ -62,14 +62,14 @@ function NavBar() {
             <NavItem to="/resume" onClick={closeNavMenu} icon={<CgFileDocument />} text="Mon CV" />
             <NavItem to="/contact" onClick={closeNavMenu} icon={<AiOutlineFundProjectionScreen />} text="Contact" />
             <Nav.Item className="fork-btn">
-              <Button
+              < a role="Button"
                 href="https://github.com/safadorii/Mon-portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
+              </a>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
