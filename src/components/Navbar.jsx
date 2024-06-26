@@ -63,7 +63,7 @@ function NavBar() {
             <NavItem to="/contact" onClick={closeNavMenu} icon={<AiOutlineFundProjectionScreen />} text="Contact" />
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/safadorii/Mon-portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
