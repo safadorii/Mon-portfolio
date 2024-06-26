@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 const ResumeViewer = () => {
-  const pdfFile = process.env.PUBLIC_URL + "/cv.pdf"; // Chemin vers votre fichier PDF
+  const pdfFile = process.env.PUBLIC_URL + "/Cv.pdf"; // Chemin vers votre fichier PDF
 
   return (
     <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
