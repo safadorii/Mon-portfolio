@@ -10,7 +10,9 @@ import { CgFileDocument, CgGitFork } from "react-icons/cg";
 import { AiFillStar } from "react-icons/ai";
 
 function NavBar() {
+  // Déclaration de l'état pour gérer l'expansion de la barre de navigation
   const [expand, setExpand] = useState(false);
+  // Déclaration de l'état pour changer la couleur de la barre de navigation en fonction du défilement
   const [navColour, setNavColour] = useState(false);
 
   useEffect(() => {
@@ -24,11 +26,11 @@ function NavBar() {
 
     window.addEventListener("scroll", scrollHandler);
 
-    // Clean up the event listener
+   // Nettoyage de l'écouteur d'événement lorsque le composant est démonté
     return () => {
       window.removeEventListener("scroll", scrollHandler);
     };
-  }, []); // Empty dependency array ensures effect runs only once
+  }, []);// Le tableau vide signifie que l'effet ne s'exécute qu'une seule fois après le premier rendu
 
   const handleToggle = () => {
     setExpand(!expand);
@@ -42,12 +44,12 @@ function NavBar() {
     <Navbar
       expanded={expand}
       fixed="top"
-      expand="md"
+      expand="md" // Rend la barre de navigation réactive à partir de la taille "medium" des écrans
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
         <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
+          aria-controls="responsive-navbar-nav" //Attribut pour l'accessibilité, relie le bouton à la barre de navigation
           onClick={handleToggle}
         >
           <span></span>
@@ -78,7 +80,7 @@ function NavBar() {
   );
 }
 
-// Custom NavItem component for DRY code
+// Composant personnalisé NavItem pour éviter la répétition de code
 function NavItem({ to, onClick, icon, text }) {
   return (
     <Nav.Item>
