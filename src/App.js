@@ -16,7 +16,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projets from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
-import Contact from "./components/Contact";
+import {ContactUs} from "./components/Contact";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -40,7 +40,7 @@ function App() {
           <Route path="/project" element={<Projets />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<ContactUs />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
