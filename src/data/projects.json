@@ -1,12 +1,28 @@
-[
+[   {
+  "imgPath": "/Assets/Projects/argentbank.webp",
+  "isBlog": false,
+  "title": "Argent Bank",
+  "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms consiste à implémenter le front-end d'une application bancaire : Argent Bank en utilisant React.",
+  "compétences": [
+    "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front.",
+    "Configurer des routes API pour la communication client / serveur.",
+    "Afficher les données du back end sur l'interface via des appels API."
+  ],
+  "ghLink": "https://github.com/safadorii/ArgentBank-website"
+  },
   {
-    "imgPath": "/Assets/Projects/Riding_Cities.webp",
+    "imgPath": "/Assets/Projects/Kasa.webp",
     "isBlog": false,
-    "title": "Riding Cities",
-    "description": "Le projet 2 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage HTML au travers du site Internet de Riding Cities. ",
-    "compétences":"Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML.",
-    "ghLink": "https://github.com/safadorii/p2-Riding-Cities",
-    "demoLink": "https://safadorii.github.io/p2-Riding-Cities/"
+    "title": "Kasa",
+    "description": "Le projet 8 du parcours Intégrateur Web d'OpenClassrooms consiste à développer la nouvelle plateforme web de Kasa en utilisant React.",
+    "compétences": [
+      "Initialiser une application avec Create React App.",
+      "Configurer la navigation entre les pages de l'application avec React Router.",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React.",
+      "Développer une interface web avec Sass."
+    ],
+    "ghLink": "https://github.com/safadorii/kasa-projet8",
+    "demoLink": "https://kasa-projet8-safadorii.vercel.app/"
   },
   {
     "imgPath": "/Assets/Projects/booki.webp",
@@ -44,6 +60,27 @@
     "demoLink": "https://safadorii.github.io/print-it/"
   },
   {
+    "imgPath": "/Assets/Projects/724events.webp",
+    "isBlog": false,
+    "title": "724 events",
+    "description": "Le projet 10 du parcours Intégrateur Web consiste à débugger le site d'une agence d'événementiel appelée 724events.",
+    "compétences": [
+      "Débugger un site web grâce aux Chrome DevTools.",
+      "Rédiger un cahier de recette pour tester un site."
+    ],
+    "ghLink": "https://github.com/safadorii/projet10",
+    "demoLink": "https://projet10--ten.vercel.app/"
+  },
+  {
+    "imgPath": "/Assets/Projects/Riding_Cities.webp",
+    "isBlog": false,
+    "title": "Riding Cities",
+    "description": "Le projet 2 du parcours Intégrateur Web d'OpenClassrooms nous permet de découvrir le langage HTML au travers du site Internet de Riding Cities. ",
+    "compétences":"Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML.",
+    "ghLink": "https://github.com/safadorii/p2-Riding-Cities",
+    "demoLink": "https://safadorii.github.io/p2-Riding-Cities/"
+  },
+  {
     "imgPath": "/Assets/Projects/sophie.webp",
     "isBlog": false,
     "title": "Portfolio - Sophie Bluel",
@@ -61,27 +98,13 @@
     "title": "Menu Maker",
     "description": "Le projet 7 du parcours Intégrateur Web d'OpenClassrooms est différent des autres projets réalisés, il s'agit de planifier le développement du prochain site de notre client Qwenta.",
     "compétences": [
-      "Mettre en place une méthode de veille technologique",
-      "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
-      "Découper une fonctionnalités en tâches pour préparer le développement",
-      "Suivre le déroulement du projet grâce à un outil de gestion de projet",
-      "Présenter la solution technique"
+      "Mettre en place une méthode de veille technologique.  ",
+      "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels.",
+      "Découper une fonctionnalités en tâches pour préparer le développement.",
+      "Suivre le déroulement du projet grâce à un outil de gestion de projet.",
+      "Présenter la solution technique."
     ],
     "ghLink": "https://github.com/safadorii/projet7"
-  },
-  {
-    "imgPath": "/Assets/Projects/Kasa.webp",
-    "isBlog": false,
-    "title": "Kasa",
-    "description": "Le projet 8 du parcours Intégrateur Web d'OpenClassrooms consiste à développer la nouvelle plateforme web de Kasa en utilisant React.",
-    "compétences": [
-      "Initialiser une application avec Create React App.",
-      "Configurer la navigation entre les pages de l'application avec React Router.",
-      "Développer des éléments de l'interface d'un site web grâce à des composants React.",
-      "Développer une interface web avec Sass."
-    ],
-    "ghLink": "https://github.com/safadorii/kasa-projet8",
-    "demoLink": "https://kasa-projet8-safadorii.vercel.app/"
   },
   {
     "imgPath": "/Assets/Projects/nina.webp",
@@ -91,29 +114,7 @@
     "compétences": ["Optimiser la performance d'un site web."],
     "ghLink": "https://github.com/safadorii/projet9",
     "demoLink": "https://safadorii.github.io/projet9/"
-  },
-  {
-    "imgPath": "/Assets/Projects/724events.webp",
-    "isBlog": false,
-    "title": "724 events",
-    "description": "Le projet 10 du parcours Intégrateur Web consiste à débugger le site d'une agence d'événementiel appelée 724events.",
-    "compétences": [
-      "Débugger un site web grâce aux Chrome DevTools.",
-      "Rédiger un cahier de recette pour tester un site."
-    ],
-    "ghLink": "https://github.com/safadorii/projet10",
-    "demoLink": "https://projet10--ten.vercel.app/"
-  },
-  {
-    "imgPath": "/Assets/Projects/argentbank.webp",
-    "isBlog": false,
-    "title": "Argent Bank",
-    "description": "Le projet 11 du parcours Intégrateur Web d'OpenClassrooms consiste à implémenter le front-end d'une application bancaire : Argent Bank en utilisant React.",
-    "compétences": [
-      "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front.",
-      "Configurer des routes API pour la communication client / serveur.",
-      "Afficher les données du back end sur l'interface via des appels API."
-    ],
-    "ghLink": "https://github.com/safadorii/ArgentBank-website"
   }
+  
+ 
 ]

@@ -16,7 +16,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projets from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
-import {ContactUs} from "./components/Contact";
+import ContactUs from "./components/Contact";
 
 function App() {
   const [load, updateLoad] = useState(true);
